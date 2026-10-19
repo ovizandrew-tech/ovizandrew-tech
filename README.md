@@ -23,6 +23,25 @@ I turn day-to-day business problems into working software and data tools. I comb
 
 ---
 
+### 📊 Data science projects
+
+| Project | What it does | Tools |
+|---|---|---|
+| **CIFAR-10 image classification (CNN capstone)** | Compared a CNN built from scratch with VGG16, ResNet50 and EfficientNetB0 transfer learning. An EfficientNetB0 + ResNet50 ensemble reached **92.6% accuracy**. | Python, TensorFlow / Keras, t-SNE |
+| **Federated Edge AI with LoRA and differential privacy** | Fine-tuned DistilBERT across simulated clients with LoRA and DP-SGD: **99% fewer trainable parameters** and 99% less communication bandwidth. | PyTorch, Hugging Face PEFT, Opacus |
+| **ChurnGuard: customer churn prediction** | Classification models to predict which customers will leave, with feature engineering and imbalanced-data handling, evaluated on ROC-AUC and F1. | Python, scikit-learn |
+| **INN Hotels: booking cancellation prediction** | Compared Logistic Regression, KNN, Naive Bayes and SVM to predict cancellations, after full exploratory analysis. | Python, scikit-learn |
+| **E-news Express: A/B test** | Hypothesis testing to decide whether a new landing page increases conversion and time on page. | Python, SciPy, statsmodels |
+| **New Wheels: SQL business analysis** | Business questions answered with joins, subqueries, CASE logic and window functions, plus visualisation of the insights. | SQL |
+| **Helmet detection** | Computer vision model to detect whether workers are wearing safety helmets. | Python, CNN |
+| **Cats vs Dogs image classifier** | Convolutional neural network for binary image classification. | Python, Keras |
+| **Sentiment analysis with RNN, LSTM and GRU** | Compared recurrent architectures for text sentiment classification. | Python, Keras |
+| **Neural network from scratch and in Keras** | Built a neural network by hand, then reproduced it in Keras. | Python, NumPy, Keras |
+| **Autoencoders, VAEs and GANs** | Generative and representation-learning models. | Python, Keras |
+| **Crow's Foot ERD design** | Relational database design and entity-relationship modelling. | SQL, data modelling |
+
+---
+
 ### 🎓 Education
 
 - **Doctor of Business Administration (DBA), AI & Machine Learning**, Walsh College, USA *(in progress)*
